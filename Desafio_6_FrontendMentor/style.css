@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: hsl(30, 54%, 90%);
+}
+
+main {
+    max-width: 700px;
+    min-width: 375px;
+    background: hwb(0 100% 0%);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 50px auto;
+}
+
+.titulo-instrucoes {
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font-family: "Young Serif";
+    font-size: 37px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+/*---------- Preparaçao ------------------*/
+nav{
+    color: hsl(332, 51%, 32%);
+    background: hsl(330, 100%, 98%);
+    padding: 10px 27px ;
+    font-family: 'Outfit';
+    border-radius: 10px
+}
+
+nav li {
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+ul {
+    
+    padding-left: 25px;
+}
+
+#tempo-preparacao span {
+    padding-left: 14px;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+    font-weight: 600;
+}
+
+/*------------ Igredientes ---------------*/
+
+article#ingredientes ul {
+    color: hsl(14, 45%, 36%);
+}
+
+article#ingredientes li span{
+    padding-left: 14px;
+    font-family: 'outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+
+/*------------ Instruções ----------------*/
+
+#lista-ordenada{
+    color: hsl(14, 45%, 36%);
+    font-family: 'outfit';
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+article#instrucoes li {
+    font-family: 'outfit';
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+article#instrucoes li span {
+    padding-left: 14px;
+    font-family: 'outfit';
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+/*------------- Tabela -------------*/
+
+table {
+    padding-left: 30px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td, th {
+    border-bottom: 1px solid gray ;
+    padding: 14px;
+    font-family: 'outfit';
+}
+
+th {
+    color: hsl(14, 45%, 36%);
+}
+
+td {
+    color: hsl(30, 10%, 34%);
+}
+
+
+@media (max-width: 620px) {
+    main {
+      padding: 0px;  
+      margin: 0px;
+      
+    }
+    
+    section, nav, article {
+        padding: 0px 40px;
+    }
+
+    section h1 {
+        font-size: 60px;
+    }
+
+    main hr {
+        width: 85%;
+    }
+}
